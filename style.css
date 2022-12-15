@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #333333;
+  --yellow: #ffbd54;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url(/fonts/FuturaPT-Bold.woff2);
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/FuturaPT-Light.woff2);
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url(/fonts/FuturaPT-Medium.woff2);
+}
+
+body {
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+.container {
+  width: 100%;
+  max-width: 1263px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER STYLE STARTED */
+.header__top {
+  background-color: #f9f8f8;
+}
+
+.header__top-wrapper {
+  display: flex;
+  padding: 12px 0;
+}
+
+.header__top-address {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--black);
+  line-height: 17.95px;
+}
+
+.header__top-list {
+  display: flex;
+  align-items: center;
+}
+
+.header__top-item {
+  display: flex;
+  align-items: center;
+}
+
+.header__top-item:nth-child(2):before {
+  display: inline-block;
+  content: "";
+  width: 4px;
+  height: 4px;
+  background-color: var(--yellow);
+  border-radius: 50%;
+  margin-right: 9px;
+}
+
+.header__top-item:nth-child(3):before {
+  display: inline-block;
+  content: "";
+  width: 4px;
+  height: 4px;
+  background-color: var(--yellow);
+  border-radius: 50%;
+  margin-right: 9px;
+}
+
+.header__top-number:nth-child(1) {
+  display: flex;
+  margin-right: 9px;
+}
+
+.header__top-item:nth-child(2) {
+  margin-right: 9px;
+}
+
+.header__top-item:nth-child(1)::before {
+  display: flex;
+  content: url(/img/header-img/phone-icon.svg);
+  width: 14px;
+  height: 14px;
+  margin-right: 7px;
+}
+
+.header__top-number {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--black);
+  line-height: 17.95px;
+}
+
+.header__top-number:hover {
+  color: #ffbd54;
+}
+
+.header__top-number:active {
+  opacity: 60%;
+}
+
+.header__top-date {
+  display: flex;
+}
+
+.header__date-week {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--black);
+  line-height: 17.95px;
+}
+
+.header__date-week:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 17px;
+}
+
+.header__date-week:nth-child(1)::before {
+  content: url(/img/header-img/calendar-icon.svg);
+  width: 14px;
+  height: 14px;
+  margin-right: 7px;
+}
+
+.header__top-day {
+  font-weight: 600;
+}
+
+.header__bottom-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 692px;
+}
+
+.header__nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--black);
+  line-height: 20.51px;
+}
+
+/* HEADER STYLE FINISHED */
+
+/*! MAIN STYLE STARTED */
+
+/* * HERO STYLE STARTED */
+/* * HERO STYLE FINISHED */
+
+/* * QUOTE STYLE STARTED */
+/* * QUOTE STYLE FINISHED */
+
+/* * SERVICE STYLE STARTED */
+/* * SERVICE STYLE FINISHED */
+
+/* * SUBSCRIBE STYLE STARTED */
+/* * SUBSCRIBE STYLE FINISHED */
+
+/* * NEWS STYLE STARTED */
+/* * NEWS STYLE FINISHED */
+
+/* * REGISTRATION STYLE STARTED */
+/* * REGISTRATION STYLE FINISHED */
+
+/*! MAIN STYLE FINISHED */
+
+/* ? FOOTER STYLE STARTED */
+/* ? FOOTER STYLE FINISHED */ ;
