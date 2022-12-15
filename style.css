@@ -6,6 +6,7 @@
 :root {
   --black: #333333;
   --yellow: #ffbd54;
+  --desc: #949494;
 }
 
 @font-face {
@@ -36,7 +37,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1263px;
+  max-width: 1350px;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -220,24 +221,67 @@ a {
 /*! MAIN STYLE STARTED */
 
 /* * HERO STYLE STARTED */
-/* * HERO STYLE FINISHED */
+.hero__section {
+  padding: 153px 0 290px 0;
+  background-image: url(/img/hero-img/pet-group.png),
+    url(/img/hero-img/parrot-img.png);
+  background-position: calc(50% - 500px) calc(50% - 150px),
+    calc(50% + 650px) calc(50% + 130px);
+  background-repeat: no-repeat;
+}
 
-/* * QUOTE STYLE STARTED */
-/* * QUOTE STYLE FINISHED */
+.hero__section-wrapper {
+  margin-left: 657px;
+}
 
-/* * SERVICE STYLE STARTED */
-/* * SERVICE STYLE FINISHED */
+.hero__section-title {
+  width: 100%;
+  max-width: 608px;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 64px;
+  color: var(--black);
+  margin-bottom: 29px;
+}
 
-/* * SUBSCRIBE STYLE STARTED */
-/* * SUBSCRIBE STYLE FINISHED */
+.hero__title-blue {
+  color: #78c0de;
+}
 
-/* * NEWS STYLE STARTED */
-/* * NEWS STYLE FINISHED */
+.hero__section-desc {
+  width: 100%;
+  max-width: 495px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: var(--desc);
+  margin-bottom: 38px;
+}
 
-/* * REGISTRATION STYLE STARTED */
-/* * REGISTRATION STYLE FINISHED */
+.hero__section-btn {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.51px;
+  color: #ffffff;
+  background-color: var(--black);
+  padding: 15.5px 47.5px;
+  border-radius: 3px;
+}
 
-/*! MAIN STYLE FINISHED */
+.hero__section-btn:hover {
+  opacity: 80%;
+}
 
-/* ? FOOTER STYLE STARTED */
-/* ? FOOTER STYLE FINISHED */ ;
+.hero__section-btn:active {
+  opacity: 60%;
+}
+
+.hero__section-btn: hover /* * HERO STYLE FINISHED */
+  /* * QUOTE STYLE STARTED */ /* * QUOTE STYLE FINISHED */
+  /* * SERVICE STYLE STARTED */ /* * SERVICE STYLE FINISHED */
+  /* * SUBSCRIBE STYLE STARTED */ /* * SUBSCRIBE STYLE FINISHED */
+  /* * NEWS STYLE STARTED */ /* * NEWS STYLE FINISHED */
+  /* * REGISTRATION STYLE STARTED */ /* * REGISTRATION STYLE FINISHED */
+  /*! MAIN STYLE FINISHED */ /* ? FOOTER STYLE STARTED */
+  /* ? FOOTER STYLE FINISHED */;
