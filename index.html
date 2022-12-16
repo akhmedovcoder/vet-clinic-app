@@ -130,24 +130,24 @@
       <div class="container">
         <div class="service__section-wrapper">
           <h2 class="service__section-title">Наши услуги</h2>
-          <div class="service__section-box">
-            <div class="service__section-card doctor">
+          <ul class="service__section-box">
+            <li class="service__section-card doctor">
               <img
                 class="service__card-img"
                 src="/img/service-img/doctor.svg"
                 alt="doctor svg img"
               />
               <p class="service__card-profession">Первичный осмотр</p>
-            </div>
-            <div class="service__section-card nurse">
+            </li>
+            <li class="service__section-card nurse">
               <img
                 class="service__card-img"
                 src="/img/service-img/nurse.svg"
                 alt="nurse svg img"
               />
               <p class="service__card-profession">Первичный осмотр</p>
-            </div>
-            <div class="service__section-card hospital">
+            </li>
+            <li class="service__section-card hospital">
               <img
                 class="service__card-img"
                 src="/img/service-img/hospital.svg"
@@ -156,32 +156,32 @@
               <p class="service__card-profession">
                 Хирургическое вмешательство
               </p>
-            </div>
-            <div class="service__section-card dog">
+            </li>
+            <li class="service__section-card dog">
               <img
                 class="service__card-img"
                 src="/img/service-img/dog.svg"
                 alt="dog svg img"
               />
               <p class="service__card-profession">Дерматология</p>
-            </div>
-            <div class="service__section-card microscop">
+            </li>
+            <li class="service__section-card microscop">
               <img
                 class="service__card-img"
                 src="/img/service-img/microscop.svg"
                 alt="microscop svg img"
               />
               <p class="service__card-profession">Лабораторная диагностика</p>
-            </div>
-            <div class="service__section-card doctor health">
+            </li>
+            <li class="service__section-card doctor health">
               <img
                 class="service__card-img"
                 src="/img/service-img/health.svg"
                 alt="health svg img"
               />
               <p class="service__card-profession">Офтальмология</p>
-            </div>
-          </div>
+            </li>
+          </ul>
           <div class="service__section-content">
             <img
               class="service__content-img"
@@ -228,6 +228,36 @@
     <!--* SERVICE SECTION FINISHED -->
 
     <!--* SUBSCRIBE SECTION STARTED -->
+    <section class="subscribe__section">
+      <div class="container">
+        <div class="subscribe__section-wrapper">
+          <h2 class="subscribe__section-title">Будь в курсе событий</h2>
+          <form
+            class="subscribe__section-form"
+            action="https://echo.htmlacademy.ru/"
+            method="post"
+          >
+            <input
+              class="subscribe__section-email"
+              type="email"
+              placeholder="Укажите Ваш email адрес"
+              name="email"
+              aria-label="email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              title="Yoazasan oxirigacha karochchi"
+            />
+            <button class="subscribe__section-btn" type="submit">
+              Подписаться
+            </button>
+          </form>
+        </div>
+        <img
+          class="subscribe__section-img"
+          src="/img/subscribe-img/dog-bg.png"
+          alt="dog image"
+        />
+      </div>
+    </section>
     <!--* SUBSCRIBE SECTION FINISHED -->
 
     <!--* NEWS SECTION STARTED -->

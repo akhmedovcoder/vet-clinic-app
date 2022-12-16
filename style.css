@@ -356,6 +356,7 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 235px;
 }
 
 .service__section-title {
@@ -514,7 +515,80 @@ a {
   background-color: var(--black);
 }
 /* * SERVICE STYLE FINISHED */
-/* * SUBSCRIBE STYLE STARTED */ /* * SUBSCRIBE STYLE FINISHED */
+
+/* * SUBSCRIBE STYLE STARTED */
+.subscribe__section {
+  background-image: url(/img/subscribe-img/blue-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 90px 0;
+  margin-bottom: 216px;
+}
+
+.subscribe__section-wrapper {
+  margin-left: 222px;
+  position: relative;
+}
+
+.subscribe__section-title {
+  font-size: 48px;
+  line-height: 20px;
+  color: #fff;
+  margin-bottom: 52px;
+}
+
+.subscribe__section-form {
+  display: flex;
+}
+
+.subscribe__section-email {
+  width: 335px;
+  height: 50px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--desc);
+  padding: 0 22px;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-right: 21px;
+}
+
+.subscribe__section-email::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--desc);
+}
+
+.subscribe__section-btn {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #fff;
+  background-color: var(--black);
+  border: none;
+  padding: 15px 52px;
+}
+
+.subscribe__section-btn:hover {
+  opacity: 80%;
+}
+
+.subscribe__section-btn:active {
+  opacity: 60%;
+}
+
+.subscribe__section-img {
+  position: absolute;
+  margin-top: -20.3rem;
+  left: calc(50% + 60px);
+}
+/* * SUBSCRIBE STYLE FINISHED */
 /* * NEWS STYLE STARTED */ /* * NEWS STYLE FINISHED */
 /* * REGISTRATION STYLE STARTED */ /* * REGISTRATION STYLE FINISHED */
 /*! MAIN STYLE FINISHED */ /* ? FOOTER STYLE STARTED */
